@@ -13,13 +13,14 @@ main {
     width: 90%;
     margin: auto;
     top: auto;
+    padding: 1rem;
 }
 
 h2 {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 50%;
-    margin: 0 auto;
+    margin: 1rem auto 0;
     background-color: #ac5415;
     color: #fff;
     text-align: center;
@@ -49,4 +50,12 @@ table th {
 table, th, td {
     border: 2px solid #ac5415;
     border-collapse: collapse;
+}
+
+input {
+    width: 100%;
+}
+
+label {
+    display: flex;
 }
