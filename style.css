@@ -52,10 +52,20 @@ table, th, td {
     border-collapse: collapse;
 }
 
+.texto-chico {
+    text-align: center;
+}
+
 input {
     width: 100%;
 }
 
 label {
     display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+span {
+    color: #6d6d6d9c;
 }

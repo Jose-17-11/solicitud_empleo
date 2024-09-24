@@ -7,6 +7,7 @@
     <title>Hoja 1</title>
 </head>
 <body>
+    
     <main>
         <!-- Encabezado -->
         <header>
@@ -133,44 +134,50 @@
             <h2>DOCUMENTACIÓN</h2>
             <table>
                 <tr>
+                    <td colspan="2">
+                        <label>Clave Única de Registro de Población (CURP)
+                            <span>AIHM001026HPLRRNA1</span>
+                        </label>
+                    </td>
+                    <td colspan="2">
+                        <label>AFORE
+                            <span>AIHM001026HPLRRNA1</span>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
                     <td>
-                        <label style="flex-direction: column; gap: 10px;" >¿Su estado de Salud Actual se Considera?
-                            <div style="display: flex; justify-content: space-around" >
-                                <label>
-                                    <input type="checkbox"> Bueno
-                                </label>
-                                <label>
-                                    <input type="checkbox"> Regular
-                                </label>
-                                <label>
-                                    <input type="checkbox"> Malo
-                                </label>
-                            </div>
+                        <label>Reg. Fed. de Contribuyentes
+                            <span>------------------</span>
                         </label>
                     </td>
-                    <td colspan="2" >
-                        <label style="flex-direction: column; gap: 10px;" >¿Padece Alguna Enfermedad Crónica? / Explique
-                            <div style="display: flex; gap: 20px; padding-left: 20px;" >
-                                <label>
-                                    <input type="checkbox"> No
-                                </label>
-                                <label>
-                                    <input type="checkbox"> Si
-                                </label>
-                                <label>
-                                    / <input style="background-color: antiquewhite; border: none;" type="text">
-                                </label>
-                            </div>
+                    <td>
+                        <label>Afiliacion al Seguro Social Numero
+                            <span>------------------</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>Cartilla Servicio Militar Número
+                            <span>------------------</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>Pasaporte Número
+                            <span>------------------</span>
                         </label>
                     </td>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="¿Práctica Usted Algún Deporte?" ></td>
-                    <td><input type="text" placeholder="Pertenece a Algún Club Social?"></td>
-                    <td><input type="text" placeholder="¿Cuál es su Pasatiempo Favorito?"></td>
-                </tr>
-                <tr>
-                    <td colspan="3" ><input type="text" placeholder="¿Cuál es su Meta en la vida?" ></td>
+                    <td colspan="2">
+                        <label>Tiene Licencia de Manejo / Clase y Número
+                            <span>------------------</span>
+                        </label>
+                    </td>
+                    <td colspan="2">
+                        <label>Siendo Extranjero ¿Qué Documentación le permite Trabajar en el País?
+                            <span>------------------</span>
+                        </label>
+                    </td>
                 </tr>
             </table>                          
         </article>
@@ -180,28 +187,28 @@
             <table>
                 <tr>
                     <td>
-                        <label style="flex-direction: column; gap: 10px;" >¿Su estado de Salud Actual se Considera?
+                        <label>¿Su estado de Salud Actual se Considera?
                             <div style="display: flex; justify-content: space-around" >
                                 <label>
-                                    <input type="checkbox"> Bueno
+                                    <p><span> X </span> Bueno</p>
                                 </label>
                                 <label>
-                                    <input type="checkbox"> Regular
+                                     Regular
                                 </label>
                                 <label>
-                                    <input type="checkbox"> Malo
+                                     Malo
                                 </label>
                             </div>
                         </label>
                     </td>
                     <td colspan="2" >
-                        <label style="flex-direction: column; gap: 10px;" >¿Padece Alguna Enfermedad Crónica? / Explique
+                        <label>¿Padece Alguna Enfermedad Crónica? / Explique
                             <div style="display: flex; gap: 20px; padding-left: 20px;" >
                                 <label>
-                                    <input type="checkbox"> No
+                                    <p><span>X </span> No</p>
                                 </label>
                                 <label>
-                                    <input type="checkbox"> Si
+                                    Si
                                 </label>
                                 <label>
                                     / <input style="background-color: antiquewhite; border: none;" type="text">
@@ -211,12 +218,32 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="¿Práctica Usted Algún Deporte?" ></td>
-                    <td><input type="text" placeholder="Pertenece a Algún Club Social?"></td>
-                    <td><input type="text" placeholder="¿Cuál es su Pasatiempo Favorito?"></td>
+                    <td>
+                        <label>
+                            ¿Practica Usted Algún Deporte?
+                            <span>No</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            Pertenece a Algún Club Social?
+                            <span>No</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            ¿Cuál es su Pasatiempo Favorito?
+                            <span>Estudiar y escuchar musica.</span>
+                        </label>
+                    </td>
                 </tr>
                 <tr>
-                    <td colspan="3" ><input type="text" placeholder="¿Cuál es su Meta en la vida?" ></td>
+                    <td colspan="3">
+                        <label>
+                            ¿Cuál es su Meta en la Vida?
+                            <span>Ejercer mi carrera y trabajar en una multinacional.</span>
+                        </label>
+                    </td>
                 </tr>
             </table>               
         </article>
@@ -232,28 +259,68 @@
                     <th class="th-right" >OCUPACIÓN</th>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="Padre" ></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                    <td>
+                        <label>
+                            Padre
+                            <span>Telesforo Arias Reyes</span>
+                        </label>
+                    </td>
+                    <td></td>
+                    <td><p class="texto-chico"><span>X</span></p></td>
+                    <td>
+                        <label class="texto-chico" >
+                            <span>Guadalupe Victoria #114</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <span></span>
+                        </label>
+                    </td>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="Madre" ></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                    <td>
+                        <label>
+                            Madre
+                            <span>Eloisa Hernández Gonzalez</span>
+                        </label>
+                    </td>
+                    <td><p style="text-align: center;" ><span>X</span></p></td>
+                    <td></td>
+                    <td class="texto-chico">
+                        <label>
+                            <span>Ignacio Allende #36, Col. Zaragoza</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="texto-chico">
+                            <span>Ama de casa</span>
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>
+                            Esposo(a)
+                        </label>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <label>
+                            <span></span>
+                        </label>
+                    </td>
+                    <td>
+                    </td>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="Esposo(a)" ></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="checkbox"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                </tr>
-                <tr>
-                    <td colspan="5" ><input style="width: 100%;" type="text" placeholder="Nombres y edades de los hijos" ></td>
+                    <td colspan="5" >
+                        <label>
+                            Nombres y edades de los hijos
+                        </label>
+                    </td>
                 </tr>
             </table>              
         </article>
@@ -269,51 +336,72 @@
                     <th class="th-right" >TÍTULO RECIBIDO</th>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="Primaria" ></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                    <td>
+                        <label>
+                            Primaria
+                            <span>Sitio de Cuautla</span>
+                        </label>
+                    </td>
+                    <td class="texto-chico"><span>Guadalupe Victoria, col. Cuautlixco</span></td>
+                    <td class="texto-chico"><span>2007</span></td>
+                    <td class="texto-chico"><span>2013</span></td>
+                    <td class="texto-chico"><span>6</span></td>
+                    <td class="texto-chico"><span>Certíficado</span></td>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="Secundaria" ></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                    <td>
+                        <label>
+                            Secundaria
+                            <span>Cuautli</span>
+                        </label>
+                    </td>
+                    <td class="texto-chico" ><span>Col. Agua Azul</span></td>
+                    <td class="texto-chico" ><span>2013</span></td>
+                    <td class="texto-chico" ><span>2016</span></td>
+                    <td class="texto-chico" ><span>3</span></td>
+                    <td class="texto-chico" ><span>Certíficado</span></td>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="Preparatoria o vocacional" ></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                    <td>
+                        <label>
+                            Preparatoria o vocacional
+                            <span>Cobaem 04</span>
+                        </label>
+                    </td>
+                    <td class="texto-chico" ><span>Col. Casasano</span></td>
+                    <td class="texto-chico" ><span>2016</span></td>
+                    <td class="texto-chico" ><span>2019</span></td>
+                    <td class="texto-chico" ><span>3</span></td>
+                    <td class="texto-chico" ><span>Certíficado</span></td>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="Profesional" ></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                    <td>Profesional</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="Comercial u Otras" ></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                    <td>Comercial u Otras</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td colspan="2" >Estudios que está efectuando en la actualidad </td>
-                    <td><input type="text" placeholder="Escuela:" ></td>
-                    <td><input type="text" placeholder="Horario:" ></td>
-                    <td><input type="text" placeholder="Curso o carrera:" ></td>
-                    <td><input type="text" placeholder="Grado" ></td>
+                    <td colspan="6">
+                        <label>
+                            Estudios que está Efectuando en la Actualidad
+                            <div style="display: flex; gap: 15px;" >
+                                <p>Escuela <span>Instituto Tecnológico Nacional de México, Campus Cuautla</span></p>
+                                <p>Horario <span>07:00 - 13:00</span></p>
+                                <p>Curso o Carrera <span>ISC</span></p>
+                                <p>Grado <span>7° Semestre</span></p>
+                            </div>
+                        </label>
+                    </td>
                 </tr>
             </table>        
         </article>  
